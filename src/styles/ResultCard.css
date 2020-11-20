@@ -1,0 +1,41 @@
+.resultCard {
+	/* width: 25%; */
+
+	width: 500px;
+	height: 370px;
+	padding: 20px;
+
+	color: white;
+	margin: 15px;
+	cursor: pointer;
+
+	transition: transform 100ms;
+}
+
+.resultCard:hover {
+	transform: scale(1.09);
+}
+
+.resultCard > img {
+	object-fit: contain;
+	width: 100%;
+	height: 300px;
+	/* height: 300px; */
+	/* width: 500px;  */
+}
+.resultCard > p {
+	font-size: 12px;
+	color: lightgray;
+	padding: 5px 0px;
+}
+.resultCard > h4 {
+	font-size: 18px;
+}
+
+.resultCard:hover > .resultCard__bottom {
+	display: flex;
+	align-items: center;
+}
+.resultCard__bottom {
+	display: none;
+}
